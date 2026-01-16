@@ -125,4 +125,4 @@ def tf_idf_search(query: str, documents: list[str]) -> str:
     # Sort the documents by their score
     scores.sort(key=lambda x: x[1], reverse=True)
     # print(scores)
-    return scores[0][0]
+    return scores[0][0] 
